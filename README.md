@@ -1,3 +1,11 @@
+  Results
+Final accuracy: 0.80 (after 100 epochs).
+- Training time was significant due to dataset size and model depth.
+- Misclassifications mostly occurred between visually similar classes (e.g., cats vs. dogs, trucks vs. automobiles).
+
+  ![Confusion Matrix](heatmap.jpg)
+  
+  
   Project Overview
   
 This project uses the CIFAR-10 dataset to classify images into 10 categories:
@@ -25,11 +33,6 @@ The dataset contains 60,000 images (32x32 pixels, color)
    - Dropout (to reduce overfitting),
    - Dense layers with Softmax for 10-class output.
 
-  Results
-Final accuracy: 0.80 (after 100 epochs).
-- Training time was significant due to dataset size and model depth.
-- Misclassifications mostly occurred between visually similar classes (e.g., cats vs. dogs, trucks vs. automobiles).
 
-  ![Confusion Matrix](heatmap.jpg)
 
 
